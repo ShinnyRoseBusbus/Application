@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('shinnyhome');
+});
+
+Route::get('/shinnyApp', function () {
+    return view('shinnyApp');
+});
+
+Route::get('/shinnydeveloper', function () {
+    return view('shinnydeveloper');
 });
